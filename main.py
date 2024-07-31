@@ -1,6 +1,7 @@
 import threading
 import cv2
-
+# То, что будет в следующих комментах будут моими догадками о том, как можно сделать multi-recognizer, а не только одно фото.
+# Прошу строго не судить ツ
 
 from deepface import DeepFace
 cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
